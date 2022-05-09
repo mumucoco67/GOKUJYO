@@ -1,0 +1,49 @@
+// color-variable
+$primary-color: #e0bf78;
+$primary-color1: #ffe8b6;
+$primary-color2: #f5c55c;
+$primary-color3: #d6a12f;
+$primary-color4: #bc8714;
+$primary-color5: #8e6100;
+
+@import url(./reset.css);
+// nav
+.nav {
+  width: 150px;
+  border-radius: 20%;
+  font-size: 18px;
+  color: $primary-color;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #555;
+  background-color: #fff;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  .nav_logo {
+    width: 109px;
+  }
+  a {
+    display: block;
+    color: $primary-color;
+    flex-direction: column;
+    // margin: 10px;
+  }
+  .items {
+    font-size: 14px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    a {
+      color: #8e6100;
+    }
+  }
+  .product-list {
+    &:hover {
+      & > .items {
+        height: 50px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
