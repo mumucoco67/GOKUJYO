@@ -1,0 +1,37 @@
+.story-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.story-wrapper .smoke-pattern {
+  margin-left: 70px;
+  margin-right: 50px;
+  width: 35%;
+}
+.story-wrapper .story-info {
+  margin-left: 50px;
+}
+.story-wrapper .story-info h1 {
+  letter-spacing: 1rem;
+}
+.story-wrapper .story-info p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.story-wrapper .story-info span {
+  font-size: 20px;
+  line-height: 1.5;
+}

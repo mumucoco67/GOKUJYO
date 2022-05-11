@@ -1,0 +1,32 @@
+.story-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  //   margin-bottom: 100px;
+
+  .smoke-pattern {
+    margin-left: 70px;
+    // margin-top: 100px;
+    margin-right: 50px;
+    width: 35%;
+  }
+  .story-info {
+    margin-left: 50px;
+
+    h1 {
+      letter-spacing: 1rem;
+    }
+    p {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    span {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+}

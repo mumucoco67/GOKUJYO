@@ -29,7 +29,7 @@ $primary-color5: #8e6100;
   margin-left: 10px;
   padding-bottom: 20px;
   box-shadow: black 2px;
-
+  z-index: 999;
   .nav_logo {
     margin-top: 20px;
     width: 80px;
@@ -71,6 +71,8 @@ $primary-color5: #8e6100;
 
 //cart
 .cart {
+  z-index: 999;
+
   position: fixed;
   width: 48px;
   height: 48px;

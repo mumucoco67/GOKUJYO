@@ -27,6 +27,7 @@
   padding-bottom: 20px;
   -webkit-box-shadow: black 2px;
           box-shadow: black 2px;
+  z-index: 999;
 }
 .nav .nav_logo {
   margin-top: 20px;
@@ -66,6 +67,7 @@
 }
 
 .cart {
+  z-index: 999;
   position: fixed;
   width: 48px;
   height: 48px;
