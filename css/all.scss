@@ -25,59 +25,7 @@ $primary-color5: #8e6100;
     flex-direction: row;
     justify-content: space-between;
     margin: 20px;
-    // nav
-    .nav {
-      width: 120px;
-      border-radius: 20%;
-      font-size: 18px;
-      color: $primary-color;
-      position: fixed;
-      display: flex;
-      flex-direction: column;
-      border: solid 1px #555;
-      background-color: #fff;
-      margin-left: 20px;
-      padding-bottom: 20px;
-      box-shadow: black 2px;
 
-      .nav_logo {
-        margin-top: 20px;
-        width: 80px;
-      }
-      li {
-        &:hover {
-          list-style: disc;
-          text-decoration: dotted;
-          color: black;
-        }
-        a {
-          display: block;
-          color: $primary-color;
-          flex-direction: column;
-          &:hover {
-            color: black;
-          }
-        }
-      }
-      .items {
-        font-size: 14px;
-        height: 0;
-        overflow: hidden;
-        transition: 0.3s;
-        a {
-          color: $primary-color;
-        }
-      }
-      .product-list {
-        &:hover {
-          & > .items {
-            height: 50px;
-            padding-bottom: 5px;
-            color: black;
-          }
-        }
-      }
-    }
     // hero img
     .hero-img {
       display: flex;
@@ -91,17 +39,6 @@ $primary-color5: #8e6100;
       width: 45px;
       margin-left: 45px;
       //   height: 76px;
-    }
-    //購物車
-    .cart {
-      position: fixed;
-      width: 48px;
-      height: 48px;
-      right: 39px;
-      top: 115px;
-      &:hover {
-        opacity: 0.5;
-      }
     }
   }
   .main {
@@ -233,7 +170,7 @@ $primary-color5: #8e6100;
         padding: 14px 0 14px 0;
       }
     }
-    .cart {
+    .addtocart {
       background-color: $primary-color;
       color: #fff;
       text-align: center;
@@ -249,81 +186,5 @@ $primary-color5: #8e6100;
       padding: 15px;
       padding-bottom: 20px;
     }
-  }
-}
-
-//footer
-footer {
-  position: relative;
-  width: 100%;
-  height: 50vh;
-  background-color: rgb(230, 230, 230);
-  .logo {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    display: block;
-  }
-  .site-footer__links {
-    width: 33%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: absolute;
-    font-size: 10px;
-    top: 30%;
-    left: 10%;
-    word-spacing: 3rem;
-    list-style-type: none;
-    a {
-      list-style-type: none;
-      word-spacing: 2rem;
-      flex: 1;
-      color: #666;
-      text-decoration: none;
-      border: solid 10px transparent;
-      box-sizing: border-box;
-      line-height: 2rem;
-      list-style-type: none;
-    }
-  }
-  .h4 {
-    font-size: 13px;
-    border-bottom: solid 1px;
-    padding: 10px 0;
-    letter-spacing: 1.5px;
-    margin-bottom: 1rem;
-    float: right;
-    width: 100%;
-  }
-  .CONTENTS-link {
-    width: 33%;
-    padding: 1rem;
-    position: absolute;
-    top: 25%;
-    font-size: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    right: 10%;
-    list-style-type: none;
-    a {
-      list-style-type: none;
-      word-spacing: 2rem;
-      flex: 1;
-      line-height: 2rem;
-      color: #666;
-      text-decoration: none;
-      border: solid 10px transparent;
-      box-sizing: border-box;
-    }
-  }
-  small {
-    font-size: 8px;
-    position: absolute;
-    bottom: 30px;
-    right: 75px;
-    list-style-type: none;
   }
 }

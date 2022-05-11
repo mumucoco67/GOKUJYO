@@ -20,45 +20,4 @@ $primary-color5: #8e6100;
   width: 100%;
   margin: 0 auto;
   position: relative;
-
-  // nav
-  .nav {
-    width: 10%;
-    border-radius: 20%;
-    font-size: 18px;
-    color: $primary-color;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px #555;
-    background-color: #fff;
-    margin-left: 20px;
-    padding-bottom: 20px;
-    .nav_logo {
-      width: 109px;
-    }
-    a {
-      display: block;
-      color: $primary-color;
-      flex-direction: column;
-      // margin: 10px;
-    }
-    .items {
-      font-size: 14px;
-      height: 0;
-      overflow: hidden;
-      transition: 0.3s;
-      a {
-        color: #8e6100;
-      }
-    }
-    .product-list {
-      &:hover {
-        & > .items {
-          height: 50px;
-          padding-bottom: 5px;
-        }
-      }
-    }
-  }
 }

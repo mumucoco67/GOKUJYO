@@ -1,0 +1,33 @@
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  .product {
+    width: 300px;
+    height: 315px;
+    background-color: #5383c3;
+  }
+  .info {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    .name {
+      width: 170px;
+      border: solid 1px #000;
+      padding: 14px 0 14px 0;
+    }
+    .price {
+      width: 130px;
+      border: solid 1px #000;
+      padding: 14px 0 14px 0;
+    }
+  }
+  .cart {
+    background-color: #616161;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 14px 0 14px 0;
+  }
+}

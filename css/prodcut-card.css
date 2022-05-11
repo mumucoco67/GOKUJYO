@@ -1,0 +1,38 @@
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.wrapper .product {
+  width: 300px;
+  height: 315px;
+  background-color: #5383c3;
+}
+.wrapper .info {
+  font-size: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.wrapper .info .name {
+  width: 170px;
+  border: solid 1px #000;
+  padding: 14px 0 14px 0;
+}
+.wrapper .info .price {
+  width: 130px;
+  border: solid 1px #000;
+  padding: 14px 0 14px 0;
+}
+.wrapper .cart {
+  background-color: #616161;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  padding: 14px 0 14px 0;
+}
