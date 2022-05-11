@@ -1,6 +1,20 @@
 @import url(./reset.css);
-.nav {
-  width: 150px;
+* {
+  list-style: none;
+  text-decoration: none;
+}
+* img {
+  width: 100%;
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper .nav {
+  width: 10%;
   border-radius: 20%;
   font-size: 18px;
   color: #e0bf78;
@@ -17,12 +31,10 @@
   margin-left: 20px;
   padding-bottom: 20px;
 }
-
-.nav .nav_logo {
+.wrapper .nav .nav_logo {
   width: 109px;
 }
-
-.nav a {
+.wrapper .nav a {
   display: block;
   color: #e0bf78;
   -webkit-box-orient: vertical;
@@ -30,21 +42,17 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-.nav .items {
+.wrapper .nav .items {
   font-size: 14px;
   height: 0;
   overflow: hidden;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
-.nav .items a {
+.wrapper .nav .items a {
   color: #8e6100;
 }
-
-.nav .product-list:hover > .items {
+.wrapper .nav .product-list:hover > .items {
   height: 50px;
   padding-bottom: 5px;
 }
-/*# sourceMappingURL=product.css.map */
