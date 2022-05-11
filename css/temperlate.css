@@ -1,4 +1,13 @@
 @import url(./reset.css);
+* {
+  list-style: none;
+  text-decoration: none;
+}
+* img {
+  width: 100%;
+  display: block;
+}
+
 .nav {
   width: 120px;
   border-radius: 20%;

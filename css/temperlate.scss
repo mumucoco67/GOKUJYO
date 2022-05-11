@@ -7,6 +7,14 @@ $primary-color4: #bc8714;
 $primary-color5: #8e6100;
 
 @import url(./reset.css);
+* {
+  list-style: none;
+  text-decoration: none;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
 // nav
 .nav {
   width: 120px;

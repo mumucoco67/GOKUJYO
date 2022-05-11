@@ -7,17 +7,3 @@ $primary-color4: #bc8714;
 $primary-color5: #8e6100;
 
 @import url(./reset.css);
-
-* {
-  list-style: none;
-  text-decoration: none;
-  img {
-    width: 100%;
-    display: block;
-  }
-}
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
