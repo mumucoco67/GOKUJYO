@@ -161,6 +161,11 @@
   text-align: center;
   padding: 20px;
   background-color: #000;
+  border: solid 1px #000;
+}
+.main-contact .contact-btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .all-card {
@@ -214,19 +219,8 @@
   width: 130px;
   padding: 14px 0 14px 0;
 }
-.all-card .product-card .addtocart {
-  background-color: #e0bf78;
-  color: #fff;
-  text-align: center;
-  font-size: 24px;
-  padding: 14px 0 14px 0;
-  margin-bottom: 20px;
-}
-.all-card .product-card .addtocart:hover {
-  background-color: #8e6100;
-}
 .all-card .product-card p {
   font-size: 12px;
-  padding: 15px;
+  padding: 10px;
   padding-bottom: 20px;
 }

@@ -34,6 +34,9 @@
   padding-bottom: 80px;
   margin: 12px 12px 0 12px;
 }
+.product-card .product-card-img .product-img {
+  margin-bottom: 5px;
+}
 .product-card .info {
   padding-top: 20px;
   text-align: center;

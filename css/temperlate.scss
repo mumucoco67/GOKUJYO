@@ -78,6 +78,7 @@ $primary-color5: #8e6100;
   height: 48px;
   right: 39px;
   top: 115px;
+  cursor: pointer;
   &:hover {
     opacity: 0.5;
   }
@@ -169,5 +170,42 @@ footer {
       right: 75px;
       list-style-type: none;
     }
+  }
+}
+
+//button
+.button_slide {
+  background-color: rgb(212, 212, 212);
+  color: rgb(0, 0, 0);
+  padding: 5px 0 5px 0;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #818181;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  &:hover {
+    color: #fff;
+    box-shadow: inset 400px 0 0 0 #343434;
+  }
+}
+
+.outer {
+  //   background-color: $primary-color;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  padding: 14px 0 14px 0;
+}
+
+// Effect
+
+.scroll-fade-in-effect {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+
+  &.is-hidden {
+    opacity: 0;
+    transform: scale(0.8, 0.8);
   }
 }
