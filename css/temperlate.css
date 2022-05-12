@@ -80,7 +80,7 @@
 
 footer {
   position: relative;
-  height: 50vh;
+  height: 35vh;
   background-color: black;
   background-image: url(../img/stock/flower2.png);
   background-repeat: no-repeat;
@@ -91,13 +91,14 @@ footer .footer-bg {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 20px;
+  z-index: 99999;
 }
 footer .footer-bg .logo {
   width: 100px;
   height: 100px;
   margin: 0 auto;
   display: block;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 footer .footer-bg .site-footer__links {
   width: 33%;

@@ -7,3 +7,66 @@ $primary-color4: #bc8714;
 $primary-color5: #8e6100;
 
 @import url(./reset.css);
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 220px;
+  margin-top: 50px;
+  .product-img {
+    width: 65%;
+    margin-bottom: 150px;
+  }
+}
+.product-card {
+  //   padding: 5px;
+  position: fixed;
+  width: 200px;
+  right: 120px;
+  top: 20px;
+  border: solid 1px rgb(203, 203, 203);
+  box-shadow: 5px 5px 3px #555555;
+  .product-card-img {
+    // border: solid 1px rgb(229, 229, 229);
+    box-shadow: 5px 5px 5px #afafaf;
+    padding: 5px;
+    height: 100px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    margin: 12px 12px 0 12px;
+  }
+  .info {
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+      width: 170px;
+      //   padding: 5px;
+    }
+    .price {
+      font-size: 20px;
+      width: 130px;
+      padding: 14px 0 14px 0;
+    }
+  }
+  .addtocart {
+    background-color: $primary-color;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 14px 0 14px 0;
+    &:hover {
+      background-color: $primary-color5;
+    }
+  }
+  p {
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+    // padding: 10px;
+    // padding-bottom: 10px;
+  }
+}
